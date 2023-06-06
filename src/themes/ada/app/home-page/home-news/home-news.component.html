@@ -1,0 +1,17 @@
+<div class="background-image-container">
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="d-flex flex-wrap">
+        <div>
+          <h1 class="display-3">Bem-vindos ao Repositório Digital da FAETERJ-Rio!</h1>
+          <p class="lead">Aqui você encontrará os trabalhos de conclusão de curso e a coleção de produção acadêmica do nosso corpo discente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <picture class="background-image">
+    <source type="image/webp" srcset="assets/ada/images/banner.webp 2000w, assets/ada/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w">
+    <source type="image/jpg" srcset="assets/ada/images/banner.jpg 2000w, assets/ada/images/banner-half.jpg 1200w, assets/dspace/images/banner-tall.jpg 768w">
+    <img alt="" [src]="'assets/ada/images/banner.jpg'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+  </picture>
+</div>

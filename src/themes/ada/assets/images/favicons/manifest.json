@@ -1,0 +1,16 @@
+{
+ "name": "App",
+ "icons": [
+  {
+   "src": "/icons8-pesquisar-avantgarde-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "density": "4.0"
+  },
+  {
+   "src": "/icons8-pesquisar-avantgarde-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
