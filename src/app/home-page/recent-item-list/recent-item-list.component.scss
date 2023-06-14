@@ -1,0 +1,12 @@
+.title_session{
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    
+}
+.icon_session{
+    width: auto;
+    height: 35px;
+    align-items: flex-baseline;    
+}

@@ -1,6 +1,10 @@
 <ng-container *ngVar="(communitiesRD$ | async) as communitiesRD">
   <div *ngIf="communitiesRD?.hasSucceeded ">
+    <div class="title_session">
+    <img class="icon_session" src="assets/ada/images/people-svgrepo-com.svg">
     <h2>{{'home.top-level-communities.head' | translate}}</h2>
+    </div> 
+  
     <p class="lead">{{'home.top-level-communities.help' | translate}}</p>
     <ds-viewable-collection
       [config]="config"

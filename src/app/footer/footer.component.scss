@@ -1,6 +1,6 @@
 :host {
   footer {
-    background-color: var(--ds-footer-bg);
+    background-color: #1a4167;
     text-align: center;
     z-index: var(--ds-footer-z-index);
     border-top: var(--ds-footer-border);
@@ -14,9 +14,37 @@
       height: var(--ds-footer-logo-height);
     }
 
+    .footer_faeterj{
+      display: flex;
+      flex-direction: row;
+      padding: 32px;
+      justify-content: space-between;
+      align-items: center;
+      
+      .info{
+        text-align: right;
+      }
+      img {
+        width: 250px;
+      }
+      p{
+        font-size: 16px;
+        color: #1a4167;
+      }
+      
+      a{
+        font-size: 14px;
+        color: #1a4167;
 
+      }
+
+    }
+    .logo_faeterj{
+      width: 200px;
+      height: auto;
+    }
     .top-footer {
-      background-color: var(--ds-top-footer-bg);
+      background-color: #fff;
       padding: var(--ds-footer-padding);
       margin: calc(var(--ds-footer-padding) * -1);
     }
