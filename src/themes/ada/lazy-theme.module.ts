@@ -55,8 +55,13 @@ import {
 } from '../../app/shared/resource-policies/resource-policies.module';
 import { ComcolModule } from '../../app/shared/comcol/comcol.module';
 import { RootModule } from '../../app/root.module';
+import { FooterComponent } from '../ada/app/footer/footer.component';
+
+
 
 const DECLARATIONS = [
+  FooterComponent,
+
 ];
 
 @NgModule({

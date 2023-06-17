@@ -6,7 +6,9 @@
   },
   "files": [
     "src/main.browser.ts",
-    "src/polyfills.ts"
+    "src/polyfills.ts",
+    "src/themes/ada/app/footer/footer.component.ts",
+
   ],
   "include": [
     "src/**/*.d.ts",
