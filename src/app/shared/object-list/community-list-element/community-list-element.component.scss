@@ -1,0 +1,13 @@
+.list-card-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 80px;
+  }
+  .list-card {
+    width: 300px;
+    border-radius: 12px;
+    background: #f7f7f7;
+    box-shadow:  33px 33px 66px #f0f0f0, -33px -33px 66px #ffffff;
+    padding: 12px 12px;
+    text-align: center;
+  }
