@@ -1,13 +1,15 @@
-<div class="list-card-containers">
-    <div class="list-card">
-        <a *ngIf="linkType != linkTypes.None" [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'" rel="noopener noreferrer" [routerLink]="['/communities/' + object.id]" class="lead">
-            {{object.name}}
-        </a>
-        <span *ngIf="linkType == linkTypes.None" class="lead">
-            {{object.name}}
-        </span>
-        <div *ngIf="object.shortDescription" class="text-muted abstract-text">
-            {{object.shortDescription}}
-        </div>
+<div class="list-card">
+    <div *ngIf="object._links.logo.href">
+        <img [src]="object._links.logo.href" alt="Logo">
+    </div>
+    <a *ngIf="linkType != linkTypes.None" [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'"
+        rel="noopener noreferrer" [routerLink]="['/communities/' + object.id]" class="lead">
+        {{object.name}}
+    </a>
+    <span *ngIf="linkType == linkTypes.None" class="lead">
+        {{object.name}}
+    </span>
+    <div *ngIf="object.shortDescription" class="text-muted abstract-text">
+        {{object.shortDescription}}
     </div>
 </div>
